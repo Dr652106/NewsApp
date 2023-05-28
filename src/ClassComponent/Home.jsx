@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, {Component } from 'react'
 import NewsItems from './NewsItems'
 import InfiniteScroll from "react-infinite-scroll-component";
 
