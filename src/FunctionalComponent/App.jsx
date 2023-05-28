@@ -18,7 +18,7 @@ export default function App() {
             <BrowserRouter >
                 <Navbar changeLanguage={changeLanguage} changeSearch={changeSearch} />
                 <Routes>
-                    <Route exact path='' element={<Home search={search} language={language} q="All" />} />
+                    <Route path='' element={<Home search={search} language={language} q="All" />} />
                     <Route path='/Politics' element={<Home search={search} language={language} q="Politics" />} />
                     <Route path='/Crime' element={<Home search={search} language={language} q="Crime" />} />
                     <Route path='/Education' element={<Home search={search} language={language} q="Education" />} />
